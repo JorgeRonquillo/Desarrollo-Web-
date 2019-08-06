@@ -1,0 +1,52 @@
+header {
+  background-color: rgb(220, 20, 60);
+  color: white;
+  font-size: 1.5em;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom: 15px;
+}
+
+.a{
+  background-color: rgb(57, 55, 55);
+}
+footer{
+	background-color: rgb(127, 149, 169);
+}
+.slider {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 300%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: armenian;
+}
+
+.slider img {
+	width: 65%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
