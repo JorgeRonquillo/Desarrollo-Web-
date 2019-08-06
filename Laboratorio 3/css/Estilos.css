@@ -1,0 +1,45 @@
+h1{
+    color: white;
+    background-color: rgb(176, 58, 46);
+}
+
+.p1{
+    background: rgb(255, 160, 122);
+    color: rgb(25, 111, 61);
+    font-weight: bold;
+    margin: 30px 50px;
+    padding: 50px 50px;
+    display: inline-block;
+}
+.p2{
+    background: rgb(255, 160, 122);
+    color: rgb(25, 111, 61);
+    font-weight: bold;
+    margin: 30px 50px;
+    padding: 50px 57px;
+    display: inline-block;
+}
+.div1{
+    width: 60%;
+    padding: 20px 10px;
+    border: 3px solid rgb(24, 124, 131);
+}
+
+.div2{
+    margin:30px;
+}
+
+.div3{
+    margin: 40px;
+}
+
+strong{
+    color: rgb(43, 42, 42);
+}
+footer{
+    background-color: rgb(100, 46, 46);
+    color: rgb(163, 160, 160);
+}
+body{
+    background-color: rgb(205, 92, 92);     
+}
