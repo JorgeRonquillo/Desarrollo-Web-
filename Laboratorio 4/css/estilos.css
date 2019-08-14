@@ -1,0 +1,53 @@
+body{
+    background: rgb(219, 216, 216); /*Color de fondo de la pagina*/
+}
+
+h1{
+    display: inline-block;
+    background: #0c3bbb;
+    color: rgb(197, 187, 48);
+}
+
+.div1, .div2, .div3{
+    text-align: justify; /*Texto justificado*/
+    font-family: Verdana; /*Tipo de letra*/
+    font-size: 0.9em; /*Tamaño de letra*/
+}
+
+.div1{
+    background: #440d0d;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    width: 60%;
+    padding: 8px 8px;
+}
+
+.div2{
+    background: #330075;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    width: 60%;
+    padding: 8px 8px;
+    margin: 10px 0px;
+}
+
+.div3{
+    background: #382929;
+    color: white;
+    position: relative;
+    bottom: 427px;
+    right: 15px;
+    width: 35%;
+    height: 421px;
+    padding: 8px 8px;
+    float: right; 
+}
+.div4{
+    bottom: 20px;
+    text-align: center;
+}
+
